@@ -1,0 +1,19 @@
+body {
+  display: flex;
+  align-items: center;
+  margin: 30px;
+  gap: 30px;
+}
+
+img {
+  width: 100px;
+  border-radius: 50%;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
