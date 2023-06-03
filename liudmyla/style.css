@@ -2,15 +2,23 @@ body {
   display: flex;
   margin: 30px;
   gap: 30px;
+  align-items: start
 }
 
 img {
-  width: 100px;
+  width: 150px;
   border-radius: 50%;
 }
 
 a {
+  display: inline-block;
   text-decoration: none;
+  width: 90px;
+  height: 20px;
+  border-radius: 20px;
+  background-color: #bccfdf;
+  padding: 5px;
+  text-align: center;
 }
 
 a:hover {
